@@ -4,19 +4,18 @@
   <metadata>
     <id>kubectx-ps</id>
     <version>0.0.1</version>
-    <packageSourceUrl>https://github.com/elemeht/kubectx-ps</packageSourceUrl>-->
+    <packageSourceUrl>https://github.com/elemeht/kubectx-ps</packageSourceUrl>
     <owners>Joshua Wester</owners>
-    <title>kubectx-ps (Install)</title>
+    <title>kubectx (Install)</title>
     <authors>Joshua Wester</authors>
     <projectUrl>https://github.com/elemeht/kubectx-ps</projectUrl>
     <tags>kubectx-ps kubectx kubernetes k8s kubectl</tags>
     <summary>PowerShell module for quickly changing kubernetes contexts.</summary>
-    <description>Adds a new Powershell module that makes context swithcing in kubectl fast and easy.  Similar to the popular bash switcher https://github.com/ahmetb/kubectx
-    Requires kubectl to be installed.  If you need install chocolatey pakcage "kubernetes-cli"</description>
+    <description>Adds a new Powershell module that makes context swithcing in kubectl fast and easy.  Similar to the popular bash switcher https://github.com/ahmetb/kubectx  Requires kubectl to be installed.  If you need install chocolatey pakcage "kubernetes-cli"</description>
     <dependencies>
       <!-- <dependency id="kubernetes-cli" /> -->
       <dependency id="chocolatey-core.extension" version="1.1.0" />
-    </dependencies>-->
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
