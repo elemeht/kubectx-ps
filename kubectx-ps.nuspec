@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>kubectx-ps</id>
+    <version>0.0.1</version>
+    <packageSourceUrl>https://github.com/elemeht/kubectx-ps</packageSourceUrl>-->
+    <owners>Joshua Wester</owners>
+    <title>kubectx-ps (Install)</title>
+    <authors>Joshua Wester</authors>
+    <projectUrl>https://github.com/elemeht/kubectx-ps</projectUrl>
+    <tags>kubectx-ps kubectx kubernetes k8s kubectl</tags>
+    <summary>PowerShell module for quickly changing kubernetes contexts.</summary>
+    <description>Adds a new Powershell module that makes context swithcing in kubectl fast and easy.  Similar to the popular bash switcher https://github.com/ahmetb/kubectx
+    Requires kubectl to be installed.  If you need install chocolatey pakcage "kubernetes-cli"</description>
+    <dependencies>
+      <!-- <dependency id="kubernetes-cli" /> -->
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
