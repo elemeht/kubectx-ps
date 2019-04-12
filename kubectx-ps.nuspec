@@ -8,10 +8,14 @@
     <owners>Joshua Wester</owners>
     <title>kubectx (Install)</title>
     <authors>Joshua Wester</authors>
+    <copyright>2018 Joshua Wester</copyright>
+    <licenseUrl>https://github.com/elemeht/kubectx-ps/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectUrl>https://github.com/elemeht/kubectx-ps</projectUrl>
-    <tags>kubectx-ps kubectx kubernetes k8s kubectl</tags>
+    <bugTrackerUrl>https://github.com/elemeht/kubectx-ps/issues</bugTrackerUrl>
+    <tags>kubectx kubernetes k8s kubectl</tags>
     <summary>PowerShell module for quickly changing kubernetes contexts.</summary>
-    <description>Adds a new Powershell module that makes context swithcing in kubectl fast and easy.  Similar to the popular bash switcher https://github.com/ahmetb/kubectx  Requires kubectl to be installed.  If you need install chocolatey pakcage "kubernetes-cli"</description>
+    <description>Adds a new Powershell module that makes context switching in kubectl fast and easy.  Similar to the popular bash switcher https://github.com/ahmetb/kubectx  Requires kubectl to be installed.  If you need install chocolatey package "kubernetes-cli"</description>
     <dependencies>
       <!-- <dependency id="kubernetes-cli" /> -->
       <dependency id="chocolatey-core.extension" version="1.1.0" />
